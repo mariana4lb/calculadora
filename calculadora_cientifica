@@ -24,25 +24,60 @@ while True:
     if op == 1:
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite o segundo número: '))
-        print(R = n1+n2)
+        R = n1+n2
+        print(R)
     elif op ==2:
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite o segundo número: '))
-        print(R=n1-n2)
+        R = n1-n2
+        print(R)
     elif op==3:
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite o segundo número: '))
-        print(R=n1*n2)
+        R = n1*n2
+        print(R)
     elif op==4:
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite o segundo número: '))
-        print(R=n1/n2)
+        R = n1/n2
+        print(R)
     elif op ==5:
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite o segundo número: '))
-        print(n1**n2)
+        R = n1**n2
+        print(R)
     elif op==6:
-        n1 = int(input('Digite o número'))
+        n1 = int(input('Digite um número: '))
         R = math.sqrt(n1)
         print(R)
     elif op==7:
+        n1 = int(input('Digite o primeiro número: '))
+        n2 = int(input('Digite o segundo número: '))
+        R = math.pow(n1,n2)
+        print(R)
+    elif op==8:
+        n1 = int(input('Calcule o Seno de: '))
+        s = math.sin(n1)
+        print(s)
+    elif op==9:
+        n1 = int(input('Calcule o Cosseno de: '))
+        s = math.cos(n1)
+        print(s)
+    elif op == 10:
+        n1 = int(input('Calcule a Tangente de: '))
+        s = math.tan(n1)
+        print(s)
+    elif op==11:
+        n1 = float(input('Digite o grau: '))
+        s = math.radians(n1)
+        print(s)
+    elif op ==12:
+        n1 = float(input('Digite o radiano: '))
+        s = math.degress(math.pi/n1)
+    elif op == 13:
+        n1 = str(input('DIgite a equação: '))
+        R = eval(n1)
+        print(R)
+    elif op == 14:
+        break
+        
