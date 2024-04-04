@@ -1,0 +1,48 @@
+import math
+
+def menu():
+    print('Bem-vindo à Calculadora!')
+    print('1-Soma')
+    print('2-Subtração')
+    print('3-Multiplicação')
+    print('4-Divisão')
+    print('5-Exponenciação')
+    print('6-Raiz quadrada')
+    print('7-Elevado à potência de X')
+    print('8-Seno')
+    print('9-Cosseno')
+    print('10-Tangente')
+    print('11-Converter de graus para radianos')
+    print('12-Converter de radianos para graus')
+    print('13-Calcular expressões')
+    print('14-Sair')
+
+while True:
+    menu()
+    op = int(input('Escolha uma opção:'))
+
+    if op == 1:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+        print(R = n1+n2)
+    elif op ==2:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+        print(R=n1-n2)
+    elif op==3:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+        print(R=n1*n2)
+    elif op==4:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+        print(R=n1/n2)
+    elif op ==5:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+        print(n1**n2)
+    elif op==6:
+        n1 = int(input('Digite o número'))
+        R = math.sqrt(n1)
+        print(R)
+    elif op==7:
