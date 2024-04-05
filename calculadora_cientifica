@@ -1,6 +1,6 @@
 import math
 
-def menu():
+def menu(): #wil e Maiza
     print('Bem-vindo à Calculadora!')
     print('1-Soma')
     print('2-Subtração')
@@ -17,7 +17,7 @@ def menu():
     print('13-Calcular expressões')
     print('14-Sair')
 
-while True:
+while True: #Letícia, Mariana e Júlia
     menu()
     op = int(input('Escolha uma opção:'))
 
